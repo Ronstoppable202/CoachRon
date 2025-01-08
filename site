@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronstoppable - Aspiring Personal Trainer and Motivational Speaker</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #ffffff;
+            background-color: #121212;
+        }
+
+        header {
+            background-color: #e63946;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #222;
+        }
+
+        nav a {
+            padding: 15px 30px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            background-color: #e63946;
+            transition: background-color 0.3s;
+        }
+
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        #about {
+            background-color: #1d3557;
+        }
+
+        #contact {
+            background-color: #457b9d;
+        }
+
+        .social-media {
+            margin-top: 20px;
+        }
+
+        .social-media a {
+            margin: 0 10px;
+            font-size: 1.5em;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .social-media a:hover {
+            color: #e63946;
+            transition: color 0.3s;
+        }
+
+        footer {
+            background-color: #111;
+            color: #888;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .bold-text {
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Ronstoppable</h1>
+        <p class="bold-text">Aspiring Personal Trainer and Motivational Speaker</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="https://www.youtube.com/@fat_guy_gettin_fit" target="_blank">YouTube</a>
+        <a href="https://www.tiktok.com/@fat_guy_gettin_fit" target="_blank">TikTok</a>
+        <a href="https://www.instagram.com/your_instagram_handle" target="_blank">Instagram</a>
+    </nav>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Welcome! I'm Ronstoppable, an aspiring personal trainer dedicated to helping others fight off their demons and achieve greatness. Through motivation, grit, and passion, I aim to inspire my community to overcome obstacles and crush their goals. Join me on my journey toward fitness and personal empowerment!</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Have questions or want to collaborate? Reach out to me through my social media or email me directly.</p>
+
+        <div class="social-media">
+            <a href="https://www.youtube.com/@fat_guy_gettin_fit" target="_blank">&#x1F4FA; YouTube</a>
+            <a href="https://www.tiktok.com/@fat_guy_gettin_fit" target="_blank">&#x1F3AC; TikTok</a>
+            <a href="https://www.instagram.com/your_instagram_handle" target="_blank">&#x1F4F7; Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ronstoppable | Fighting Off Our Demons</p>
+    </footer>
+</body>
+
+</html>
